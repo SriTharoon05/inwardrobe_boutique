@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sritharoon05.github.io/inwardrobe_boutique/sitemap.xml
