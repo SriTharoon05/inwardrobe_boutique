@@ -30,6 +30,8 @@ The publishing script updates `gh-pages` without requiring build tools or additi
 
 The peach background and original logo come from the supplied in Wardrobe brand reference. The genuine boutique photos are displayed using CSS crop windows; the original image files are preserved. Layout references: [Sézane](https://www.sezane.com/en-en), [DÔEN](https://www.shopdoen.com/), and [LoveShackFancy](https://www.loveshackfancy.com/). The composition and copy are original; no third-party brand assets or code are used.
 
+The three collection images are original AI-generated fashion editorials commissioned for this site, depicting everyday neutrals, occasion wear, and blush/ivory knitwear. They illustrate style inspiration rather than actual inventory. The hero and storefront retain the supplied real boutique photographs.
+
 The site uses the provided phone, email, neighbourhood and displayed hours. The three customer quotes are transcribed from the supplied Google review screenshots. No unverified street address, Instagram handle, inventory availability, aggregate rating or opening-day schedule is asserted. The directions link searches Google Maps for the boutique, and a WhatsApp link lets visitors request the exact location.
 
 ## SEO
