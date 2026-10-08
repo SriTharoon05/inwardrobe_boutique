@@ -2,7 +2,7 @@
 
 A responsive, editorial brand website for the women's boutique in Virugambakkam, Chennai. No ecommerce or data collection. Built with semantic HTML, CSS and a small amount of JavaScript.
 
-- Website: https://sritharoon05.github.io/in-wardrobe-boutique/
+- Website: https://sritharoon05.github.io/inwardrobe_boutique/
 - WhatsApp: +91 73583 31164
 - Email: inwardrobeofficial@gmail.com
 
