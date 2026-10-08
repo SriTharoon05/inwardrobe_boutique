@@ -1,0 +1,10 @@
+{
+  "name": "in-wardrobe-boutique",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The in Wardrobe boutique brand website, Chennai",
+  "scripts": {
+    "preview": "python3 -m http.server 4173 --bind 0.0.0.0 --directory dist",
+    "check": "node scripts/check.mjs"
+  }
+}
