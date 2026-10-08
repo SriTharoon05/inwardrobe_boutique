@@ -21,8 +21,10 @@ GitHub Pages serves the root of the `gh-pages` branch. After committing changes 
 
 ```sh
 git push origin main
-git subtree push --prefix dist origin gh-pages
+npm run publish:github
 ```
+
+The publishing script updates `gh-pages` without requiring build tools or additional packages. GitHub Pages must be configured to deploy from the root of that branch.
 
 ## Design and content
 

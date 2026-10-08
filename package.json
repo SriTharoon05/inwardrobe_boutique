@@ -5,6 +5,7 @@
   "description": "The in Wardrobe boutique brand website, Chennai",
   "scripts": {
     "preview": "python3 -m http.server 4173 --bind 0.0.0.0 --directory dist",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs",
+    "publish:github": "bash scripts/publish-github.sh"
   }
 }
