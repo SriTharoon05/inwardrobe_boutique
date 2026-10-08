@@ -7,7 +7,7 @@ assert.equal((html.match(/<h1[\s>]/g) || []).length, 1, 'Exactly one primary hea
 for (const match of html.matchAll(/(?:src|href)="([^"]+)"/g)) {
   const value = match[1];
   if (/^(https?:|data:|mailto:|tel:|#)/.test(value)) continue;
-  assert.ok(fs.existsSync(path.join(root, value)), `Local asset exists: ${value}`);
+  assert.ok(fs.existsSync(path.join(root, value.split(/[?#]/)[0])), `Local asset exists: ${value}`);
 }
 for (const match of html.matchAll(/href="#([^"]+)"/g)) assert.ok(html.includes(`id="${match[1]}"`), `Anchor target exists: ${match[1]}`);
 JSON.parse(html.match(/<script type="application\/ld\+json">\s*([\s\S]*?)<\/script>/)[1]);
